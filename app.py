@@ -19,7 +19,7 @@ n_dias = st.slider('Quantidade de dias de previsão', 30, 360)
 
 
 def pegar_dados_acoes():
-    arquivo = 'C:/Users/Micro/PycharmProjects/streamli_prophet/acoes.csv'
+    arquivo = 'acoes.csv'
     return pd.read_csv(arquivo, delimiter=';')
 
 
